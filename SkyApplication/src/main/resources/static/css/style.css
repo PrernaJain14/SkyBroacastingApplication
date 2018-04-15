@@ -1,0 +1,64 @@
+@charset "ISO-8859-1";
+.box1{
+background:#B9DAE5;
+display: inline-block; /* Change this to block and see what happens */
+border: 1px solid black;
+float:left;
+width:33%;
+height:300px;
+}
+.title-h1{
+background:#0C8FBD;	
+color:#05384B;
+border: 1px solid black;
+}
+.title-h2{
+background:#B9DAE5;	
+}
+.label_item{
+background:#B6C0C3;
+align:center;
+padding: 5px;
+}
+
+
+.thing:empty:not(:focus):before  {	
+content: attr(data-placeholder);
+display: block;
+font-style:italic;
+ padding: 2px;
+}
+
+.thing{
+display: block;
+ padding: 2px;
+}
+
+.basket_item {
+background:white;
+  padding: 2px;
+  
+}
+
+.button_item {
+padding: 5px;
+align:center;
+  
+}
+
+.error_item {
+padding: 5px;
+align:center;
+color:red;
+height:40px;
+  
+}
+.success_item{	
+padding: 5px;
+color:green;
+height:40px;
+}
+.confirm_box{
+background:#B9DAE5;
+border: 1px solid black;
+}
